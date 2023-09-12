@@ -1,7 +1,8 @@
 import Image from 'next/image'
+import Paragraph from './components/ui/Paragraph'
 
 export default function Home() {
   return (
-    <main className='bg-red-500'>Hello world</main>
+    <main className='bg-red-500'><Paragraph ref /> </main>
   )
 }
