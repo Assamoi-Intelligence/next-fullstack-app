@@ -27,4 +27,4 @@ const LargeHeading: FC<LargeHeadingProps> = forwardRef<HTMLHeadingElement, Large
 
 LargeHeading.displayName = "LargeHeading";
 
-export default LargeHeading
+export default LargeHeading;
